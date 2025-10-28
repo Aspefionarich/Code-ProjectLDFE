@@ -33,18 +33,21 @@ public class MenuDrivenSystem {
         final String RESET = "\u001B[0m";
 final String BROWN = "\u001B[33m";
 
-System.out.println(BROWN + " ───▄▀▀▀▀▄▄▄▄▄▀▀▀▀▄───");
-System.out.println(BROWN + " ───█▒▒░░░░░░░░░▒▒█───");
-System.out.println(BROWN + " ────█░░█░░░░░█░░█────");
-System.out.println(BROWN + " ─▄▄──█░░░▀█▀░░░█──▄▄─");
-System.out.println(BROWN + " █░░█─▀▄░░░░░░░▄▀─█░░█");
-System.out.println("==============================================");
-  System.out.println(" ▀█▀▐░░░░░░░░▐░░░░░░░░░░░░░░");
-        System.out.println(" ░█░▐▀█░▀█▐▀█▐▐▀▐░█▐▀█▐░█░░░");
-        System.out.println(" ░█░▐░█▐▀█▐░█▐▌░▐▄█▐░█▐░█░░░");
-        System.out.println(" ░█░▐░█▐▄█▐░█▐▐▄▄▄█▐▄█▐▄█░░░");
-        
-                    sleepSafe(1000);
+System.out.println(BROWN + "                     ───▄▀▀▀▀▄▄▄▄▄▀▀▀▀▄───                          ");
+System.out.println(BROWN + "                     ───█▒▒░░░░░░░░░▒▒█───                          ");
+System.out.println(BROWN + "                     ────█░░█░░░░░█░░█────                          ");
+System.out.println(BROWN + "                     ─▄▄──█░░░▀█▀░░░█──▄▄─                          ");
+System.out.println(BROWN + "                     █░░█─▀▄░░░░░░░▄▀─█░░█                          ");
+System.out.println("============================================================================");
+System.out.println("   ████████╗██╗  ██╗ █████╗ ███╗   ██╗██╗  ██╗██╗   ██╗ ██████╗ ██╗   ██╗   ");
+System.out.println("   ╚══██╔══╝██║  ██║██╔══██╗████╗  ██║██║ ██╔╝╚██╗ ██╔╝██╔═══██╗██║   ██║   ");
+System.out.println("      ██║   ███████║███████║██╔██╗ ██║█████╔╝  ╚████╔╝ ██║   ██║██║   ██║   ");
+System.out.println("      ██║   ██╔══██║██╔══██║██║╚██╗██║██╔═██╗   ╚██╔╝  ██║   ██║██║   ██║   ");
+System.out.println("      ██║   ██║  ██║██║  ██║██║ ╚████║██║  ██╗   ██║   ╚██████╔╝╚██████╔╝   ");
+System.out.println("      ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚═════╝    ");
+System.out.println("============================================================================");
+                   
+                sleepSafe(1000);
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.\n");
@@ -89,7 +92,7 @@ System.out.println("==============================================");
     private static void showMenu() {
         System.out.println("\n=====================================");
         System.out.println("          MENU-DRIVEN SYSTEM");
-        System.out.println("=====================================");
+        System.out.println("=======================================");
         System.out.println("[1] Calculator");
         System.out.println("[2] Conversion (mm, cm, m)");
         System.out.println("[3] Odd or Even");
@@ -103,18 +106,18 @@ System.out.println("==============================================");
         final String RESET = "\u001B[0m";
         final String BROWN = "\u001B[33m";
 
-        System.out.println(" ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───");
-        System.out.println(" ───█▒▒░░░░░░░░░▒▒█───");
-        System.out.println(" ───█░░█░░░░░█░░█────");
-        System.out.println(" ─▄▄──█░░░▀█▀░░░█──▄▄─");
-        System.out.println(" █░░█─▀▄░░░░░░░▄▀─█░░█");
-       System.out.println("===============================================================");   
-System.out.println("=  ██╗               ██████╗     █████╗      █████╗      ██╗ ███╗       ██╗  ██████╗       =");
-System.out.println("=  ██║             ██╔═══██╗██╔══██╗██╔═══██╗ ██║ ████╗    ██║██╔════╝       =");
-System.out.println("=  ██║             ██║        ██║███████║██║         ██║██║██╔██╗  ██║██║      ███╗    ="); 
-System.out.println("=  ██║             ██║        ██║██╔══██║██║        ██║ ██║██║╚██╗██║██║        ██║    =");  
-System.out.println("=  ███████╗╚██████╔╝██║      ██║╚█████╔╝   ██║██║   ╚████║╚██████╔╝    ="); 
-System.out.println("=  ╚══════╝  ╚═════╝   ╚═╝      ╚═╝   ╚════╝     ╚═╝ ╚═╝     ╚═══╝   ╚═════╝      =");   
+System.out.println("                     ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───                     ");
+System.out.println("                     ───█▒▒░░░░░░░░░▒▒█───                     ");
+System.out.println("                      ───█░░█░░░░░█░░█────                     ");
+System.out.println("                     ─▄▄──█░░░▀█▀░░░█──▄▄─                     ");
+System.out.println("                     █░░█─▀▄░░░░░░░▄▀─█░░█                     ");
+System.out.println("===============================================================");   
+System.out.println("=  ██╗      ██████╗  █████╗ ██████╗   ██╗███╗   ██╗ ██████╗   =");
+System.out.println("=  ██║     ██╔═══██╗██╔══██╗██╔═══██╗ ██║████╗  ██║██╔════╝   =");
+System.out.println("=  ██║     ██║   ██║███████║██║    ██║██║██╔██╗ ██║██║  ███╗  =");     
+System.out.println("=  ██║     ██║   ██║██╔══██║██║   ██║ ██║██║╚██╗██║██║   ██║  =");  
+System.out.println("=  ███████╗╚██████╔╝██║  ██║╚██████╔╝ ██║██║ ╚████║╚██████╔╝  ="); 
+System.out.println("=  ╚══════╝ ╚═════╝ ╚═╝  ╚═╝ ╚════╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝   =");   
 System.out.println("===============================================================");
 
         for (int i = 0; i < 5; i++) {
@@ -123,7 +126,7 @@ System.out.println("============================================================
         }
         System.out.println("\n");
 
-        System.out.println(" ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───");
+System.out.println(" ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───");
 System.out.println(" ───█▒▒░░░░░░░░░▒▒█───");
 System.out.println("────█░░█░░░░░█░░█────");
 System.out.println("─▄▄──█░░░▀█▀░░░█──▄▄─");
